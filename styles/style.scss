@@ -150,8 +150,19 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 /*Responsive*/
 
 
-@media screen and (max-width: 378px){
+@media screen and (max-width: 768px){
     .home{
         background:url(../Illustrations/Bathome1.png) no-repeat center center/contain;
+    }
+    .home .menu .one img{
+        width: 80px;
+        height: 56px;
+    }
+    .home .hero aside{
+        right: -4.3%;
+    }
+    .home .hero aside div.flèche-bat img{
+        width: 60px;
+        height: 56px;
     }
 }
