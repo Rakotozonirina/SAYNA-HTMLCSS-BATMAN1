@@ -67,6 +67,22 @@ body {
   font-size: 36px;
 }
 
+/*variable de background-gradient*/
+/*Button custom*/
+.home .hero div.contenu-bouton .bouton {
+  padding: 1rem 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(0.25turn, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4), rgba(237, 222, 191, 0.4), rgba(137, 0, 8, 0.6));
+  color: #ffffff;
+  transition: background 0.3s ease-in-out;
+}
+.home .hero div.contenu-bouton .bouton:hover {
+  background: linear-gradient(0.25turn, rgb(237, 222, 191), rgb(25, 88, 125), rgb(237, 222, 191), rgb(137, 0, 8));
+}
+
 /*Responsive*/
 @media screen and (max-width: 378px) {
   .home {
