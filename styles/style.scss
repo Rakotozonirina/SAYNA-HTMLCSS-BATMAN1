@@ -27,10 +27,12 @@ $greyButtonColorHoverTwo: rgba(25, 88, 125, 0.6);
 $redButtonColorHover: rgba(137, 0, 8, 0.8);
 /*bordure de la ligne*/
 $lineDiscreteColor: rgba(188, 187, 189, 0.2);
-$bordureWidthLeftHead: 0.2rem;
-$bordureWidthRightHead: 0.2rem;
-$bordureWidthLeftHero: 0.2rem;
-$bordureWidthRightHero: 0.2rem;
+$bordureWidthLeftHead: 0.1rem;
+$bordureWidthRightHead: 0.1rem;
+$bordureWidthBottomHead: 0.1rem;
+$bordureWidthLeftHero: 0.1rem;
+$bordureWidthRightHero: 0.1rem;
+$bordureWidthTopHero: 0.1rem;
 $bordureStyle: solid;
 /*bordure en haut*/
 $bordureHaut: 132px;
@@ -51,6 +53,7 @@ $fontSizeTextSeconds: 12px;
 .home .menu{
     width: 86%;
     border-style: $bordureStyle;
+    border-bottom-width: $bordureWidthBottomHead;
     border-left-width: $bordureWidthLeftHead;
     border-right-width: $bordureWidthRightHead;
     border-color: $lineDiscreteColor;
@@ -81,6 +84,7 @@ $fontSizeTextSeconds: 12px;
     height: $heightHero;
     border-style: $bordureStyle;
     border-color: $lineDiscreteColor;
+    border-top-width: $bordureWidthTopHero;
     border-left-width: $bordureWidthLeftHero;
     border-right-width: $bordureWidthRightHero;
     border-bottom: none;
@@ -125,7 +129,7 @@ $fontSizeTextSeconds: 12px;
     width: 100px;
     height: 300px;
     position: fixed;
-    right: 3.3%;
+    right: 3.2%;
     top: 32%;
 }
 /*variable de background-gradient*/
@@ -164,5 +168,8 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     .home .hero aside div.flèche-bat img{
         width: 60px;
         height: 56px;
+    }
+    .home .hero article div.contenu-bouton{
+        flex-direction: column;
     }
 }

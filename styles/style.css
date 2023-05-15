@@ -30,8 +30,9 @@ body {
 .home .menu {
   width: 86%;
   border-style: solid;
-  border-left-width: 0.2rem;
-  border-right-width: 0.2rem;
+  border-bottom-width: 0.1rem;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
   border-color: rgba(188, 187, 189, 0.2);
   border-top: none;
   height: 132px;
@@ -64,8 +65,9 @@ body {
   height: 110vh;
   border-style: solid;
   border-color: rgba(188, 187, 189, 0.2);
-  border-left-width: 0.2rem;
-  border-right-width: 0.2rem;
+  border-top-width: 0.1rem;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
   border-bottom: none;
   display: flex;
   flex-direction: column;
@@ -114,7 +116,7 @@ body {
   width: 100px;
   height: 300px;
   position: fixed;
-  right: 3.3%;
+  right: 3.2%;
   top: 32%;
 }
 
@@ -149,6 +151,9 @@ body {
   .home .hero aside div.flèche-bat img {
     width: 60px;
     height: 56px;
+  }
+  .home .hero article div.contenu-bouton {
+    flex-direction: column;
   }
 }
 
