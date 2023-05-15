@@ -44,11 +44,14 @@ $heightHero: 110vh;
 $rajdhani: 'Rajdhani', sans-serif;
 $spaceGrotesk: 'Space Grotesk', sans-serif;
 $fontSizeH1: 36px;
+$fontSizeH1Responsive: 34px;
 $fontSizeButton: 20px;
+$fontSizeButtonResponsive: 18px;
 $fontSizeTitleH2: 12px;
 $fontSizeSubTitle: 22px;
 $fontSizeTextFirst: 18px;
 $fontSizeTextSeconds: 12px;
+$fontSizeTextFirstResponsive: 16px;
 
 .home .menu{
     width: 86%;
@@ -166,10 +169,24 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
         right: -4.3%;
     }
     .home .hero aside div.flèche-bat img{
-        width: 60px;
-        height: 56px;
+        width: 2em;
+        height: 2em;
     }
     .home .hero article div.contenu-bouton{
         flex-direction: column;
+    }
+    .home .hero article div.contenu-text p{
+        font-size: $fontSizeTextFirstResponsive;
+        margin-top: 8em;
+    }
+    .home .menu div h1{
+        font-size: $fontSizeH1Responsive;
+    }
+    .home .hero article div.contenu-text h1{
+        font-size: $fontSizeH1Responsive;
+    }
+    .home .hero div.contenu-bouton .bouton{
+        font-size: $fontSizeButtonResponsive;
+        margin: 1em 0;
     }
 }

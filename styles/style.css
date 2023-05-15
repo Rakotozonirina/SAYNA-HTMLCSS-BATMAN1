@@ -149,11 +149,25 @@ body {
     right: -4.3%;
   }
   .home .hero aside div.flèche-bat img {
-    width: 60px;
-    height: 56px;
+    width: 2em;
+    height: 2em;
   }
   .home .hero article div.contenu-bouton {
     flex-direction: column;
+  }
+  .home .hero article div.contenu-text p {
+    font-size: 16px;
+    margin-top: 8em;
+  }
+  .home .menu div h1 {
+    font-size: 34px;
+  }
+  .home .hero article div.contenu-text h1 {
+    font-size: 34px;
+  }
+  .home .hero div.contenu-bouton .bouton {
+    font-size: 18px;
+    margin: 1em 0;
   }
 }
 
