@@ -34,9 +34,22 @@ body {
   border-color: rgba(188, 187, 189, 0.2);
   border-top: none;
   height: 132px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  align-content: center;
 }
 
-.home .menu h1 {
+.home .menu .one {
+  padding-left: 4rem;
+}
+
+.home .menu .two h1 {
+  text-align: right;
+  margin-right: 4rem;
+}
+
+.home .menu div h1 {
   color: #ffffff;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
@@ -53,18 +66,55 @@ body {
   border-left-width: 0.2rem;
   border-right-width: 0.2rem;
   border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.home .hero article p {
+.home .hero article {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .hero article div.contenu-text {
+  width: 44%;
+  text-align: center;
+}
+
+.home .hero article div.contenu-bouton {
+  width: 44%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home .hero article div.contenu-text p {
   color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
 }
 
-.home .hero article h1 {
+.home .hero article div.contenu-text h1 {
   color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-size: 36px;
+  padding: 0.5em 0;
+}
+
+.home .hero aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 300px;
+  position: fixed;
+  right: 3.3%;
+  top: 32%;
 }
 
 /*variable de background-gradient*/
@@ -80,7 +130,7 @@ body {
   transition: background 0.3s ease-in-out;
 }
 .home .hero div.contenu-bouton .bouton:hover {
-  background: linear-gradient(0.25turn, rgb(237, 222, 191), rgb(25, 88, 125), rgb(237, 222, 191), rgb(137, 0, 8));
+  background: linear-gradient(0.25turn, rgba(237, 222, 191, 0.6), rgba(25, 88, 125, 0.6), rgba(237, 222, 191, 0.6), rgba(137, 0, 8, 0.8));
 }
 
 /*Responsive*/
