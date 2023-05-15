@@ -198,7 +198,7 @@ body {
   font-size: 22px;
   font-weight: regular;
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 /*Responsive*/
@@ -233,6 +233,19 @@ body {
   .home .hero div.contenu-bouton .bouton {
     font-size: 18px;
     margin: 1em 0;
+  }
+  .cinema-batman .art article h1 {
+    font-size: 34px;
+  }
+  .cinema-batman .art article p {
+    font-size: 16px;
+  }
+  .cinema-batman .contenu-cart-batman {
+    display: flex;
+    flex-direction: column;
+  }
+  .cinema-batman .contenu-cart-batman .div p {
+    font-size: 20px;
   }
 }
 
