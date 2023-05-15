@@ -162,7 +162,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 .cinema-batman{
     background-color: $black;
     width: 100%;
-    height: 100vh;
+    height: 139.6vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -215,6 +215,32 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     font-weight: $fontWeightRegular;
     text-align: center;
     margin: 1rem 0;
+}
+/*Nemesis*/
+.nemesis{
+    background-color: $black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nemesis .art{
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    padding-top: 4rem;
+}
+.nemesis .art article h1{
+    color: $white;
+    font-family: $rajdhani;
+    font-size: $fontSizeH1;
+    padding: 0 4rem;
 }
 /*Responsive*/
 
