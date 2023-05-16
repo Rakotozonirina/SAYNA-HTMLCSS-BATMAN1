@@ -314,7 +314,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 .allies{
     background-color: $black;
     width: 100%;
-    height: 140vh;
+    height: 115vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -372,6 +372,47 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     font-weight: $fontWeightRegular;
     text-align: center;
     margin: 1rem 0;
+}
+/* Justice league */
+.justice-league{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-start;
+}
+.justice-league .art{
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+}
+.justice-league .art article h1{
+    color: $white;
+    font-family: $rajdhani;
+    font-size: $fontSizeH1;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.justice-league .art article p{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextFirst;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 6rem;
+}
+.cover-justice-league{
+    background: url(../Illustrations/Bathome11.png) no-repeat top center/cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
 }
 /*Responsive*/
 
@@ -452,6 +493,9 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     .stl-batman div img{
         top: 0%;
     }
+    .allies{
+        height: 355vh;
+    }
     .allies .art{
         height: 100vh;
     }
@@ -472,5 +516,17 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     }
     .allies .contenu-cart-allies .div p{
         font-size: $fontSizeSubTitleResponsive;
+    }
+    .justice-league{
+        height: 100vh;
+    }
+    .justice-league .art article h1{
+        font-size: $fontSizeH1Responsive;
+    }
+    .justice-league .art article p{
+        font-size: $fontSizeTextFirstResponsive;
+    }
+    .cover-justice-league{
+        background: url(../Illustrations/Bathome11.png) no-repeat top center/contain;
     }
 }
