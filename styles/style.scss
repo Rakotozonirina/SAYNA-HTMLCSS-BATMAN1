@@ -221,7 +221,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 .nemesis{
     background-color: $black;
     width: 100%;
-    height: 132vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -291,7 +291,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 /*Styles Batman*/
 .stl-batman{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -307,7 +307,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 }
 .stl-batman div img{
     position: absolute;
-    top: 0%;
+    top: -46%;
     right: 0%;
 }
 /*Responsive*/
@@ -361,6 +361,9 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     .cinema-batman .contenu-cart-batman .div p{
         font-size: $fontSizeSubTitleResponsive;
     }
+    .nemesis{
+        height: 357vh;
+    }
     .nemesis .art article h1{
         font-size: $fontSizeH1Responsive;
     }
@@ -379,5 +382,11 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     }
     .nemesis .contenu-cart-nemesis .div p{
         font-size: $fontSizeSubTitleResponsive;
+    }
+    .stl-batman{
+        height: 50vh;
+    }
+    .stl-batman div img{
+        top: 0%;
     }
 }
