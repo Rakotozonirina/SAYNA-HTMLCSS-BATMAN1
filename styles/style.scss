@@ -162,7 +162,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 .cinema-batman{
     background-color: $black;
     width: 100%;
-    height: 139.6vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -236,11 +236,55 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     border-bottom: none;
     padding-top: 4rem;
 }
+.nemesis .art article {
+    position: relative;
+}
 .nemesis .art article h1{
     color: $white;
     font-family: $rajdhani;
     font-size: $fontSizeH1;
-    padding: 0 4rem;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.nemesis .art article img{
+    width: 9rem;
+    height: 8rem;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+}
+.nemesis .art article p{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextFirst;
+    padding: 1.5rem 4rem;
+}
+.nemesis .contenu-cart-nemesis{
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nemesis .contenu-cart-nemesis div{
+    display: grid;
+    justify-content: center;
+}
+.nemesis .contenu-cart-nemesis div p{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeSubTitle;
+    font-weight: $fontWeightRegular;
+    text-align: center;
+    margin: 1rem 0;
 }
 /*Responsive*/
 
