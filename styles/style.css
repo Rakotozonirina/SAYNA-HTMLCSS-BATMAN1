@@ -313,6 +313,9 @@ body {
     font-size: 18px;
     margin: 1em 0;
   }
+  .cinema-batman {
+    height: 358vh;
+  }
   .cinema-batman .art article h1 {
     font-size: 34px;
   }
@@ -324,6 +327,25 @@ body {
     flex-direction: column;
   }
   .cinema-batman .contenu-cart-batman .div p {
+    font-size: 20px;
+  }
+  .nemesis .art article h1 {
+    font-size: 34px;
+  }
+  .nemesis .art article img {
+    top: 0%;
+    left: 36%;
+    width: 8rem;
+    height: 7rem;
+  }
+  .nemesis .art article p {
+    font-size: 16px;
+  }
+  .nemesis .contenu-cart-nemesis {
+    display: flex;
+    flex-direction: column;
+  }
+  .nemesis .contenu-cart-nemesis .div p {
     font-size: 20px;
   }
 }
