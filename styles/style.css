@@ -307,6 +307,77 @@ body {
   right: 0%;
 }
 
+/*Alliés*/
+.allies {
+  background-color: #000000;
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.allies .art {
+  width: 86%;
+  height: 30vh;
+  border-style: solid;
+  border-color: rgba(188, 187, 189, 0.2);
+  border-top: none;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
+  border-bottom: none;
+  position: relative;
+}
+
+.allies .art article {
+  position: absolute;
+  top: -58%;
+}
+
+.allies .art article h1 {
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
+  text-transform: capitalize;
+  padding: 0 4rem;
+}
+
+.allies .art article p {
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  padding: 2rem 4rem;
+}
+
+.allies .contenu-cart-allies {
+  width: 86%;
+  border-style: solid;
+  border-color: rgba(188, 187, 189, 0.2);
+  border-top: none;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
+  border-bottom: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.allies .contenu-cart-allies .div {
+  display: grid;
+  justify-content: center;
+}
+
+.allies .contenu-cart-allies .div p {
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: regular;
+  text-align: center;
+  margin: 1rem 0;
+}
+
 /*Responsive*/
 @media screen and (max-width: 768px) {
   .home {
@@ -383,6 +454,27 @@ body {
   }
   .stl-batman div img {
     top: 0%;
+  }
+  .allies .art {
+    height: 100vh;
+  }
+  .allies .art article {
+    position: relative;
+    padding-top: 26rem;
+  }
+  .allies .art article h1 {
+    padding-top: 2rem;
+    font-size: 34px;
+  }
+  .allies .art article p {
+    font-size: 16px;
+  }
+  .allies .contenu-cart-allies {
+    display: flex;
+    flex-direction: column;
+  }
+  .allies .contenu-cart-allies .div p {
+    font-size: 20px;
   }
 }
 

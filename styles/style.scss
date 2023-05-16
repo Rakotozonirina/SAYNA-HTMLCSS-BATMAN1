@@ -310,6 +310,69 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     top: -46%;
     right: 0%;
 }
+/*Alliés*/
+.allies{
+    background-color: $black;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.allies .art{
+    width: 86%;
+    height: 30vh;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    position: relative;
+}
+.allies .art article{
+    position: absolute;
+    top: -58%;
+}
+.allies .art article h1{
+    color: $white;
+    font-family: $rajdhani;
+    font-size: $fontSizeH1;
+    text-transform: capitalize;
+    padding: 0 4rem;
+}
+.allies .art article p{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextFirst;
+    padding: 2rem 4rem;
+}
+.allies .contenu-cart-allies {
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.allies .contenu-cart-allies .div{
+    display: grid;
+    justify-content: center;
+}
+.allies .contenu-cart-allies .div p{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeSubTitle;
+    font-weight: $fontWeightRegular;
+    text-align: center;
+    margin: 1rem 0;
+}
 /*Responsive*/
 
 
@@ -388,5 +451,26 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     }
     .stl-batman div img{
         top: 0%;
+    }
+    .allies .art{
+        height: 100vh;
+    }
+    .allies .art article{
+        position: relative;
+        padding-top: 26rem;
+    }
+    .allies .art article h1{
+        padding-top: 2rem;
+        font-size: $fontSizeH1Responsive;
+    }
+    .allies .art article p{
+        font-size: $fontSizeTextFirstResponsive;
+    }
+    .allies .contenu-cart-allies{
+        display: flex;
+        flex-direction: column;
+    }
+    .allies .contenu-cart-allies .div p{
+        font-size: $fontSizeSubTitleResponsive;
     }
 }
