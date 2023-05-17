@@ -189,7 +189,51 @@
                 </section>
             </div>
             <section class="annonce">
-                <video src="./Video/THE BATMAN Bande Annonce VF (2022) NOUVELLE.mp4" controls poster="./Illustrations/Bathome_ba2.png"></video>
+                <video src="./Video/annonce.mp4" autoplay controls poster="./Illustrations/Bathome_ba2.png"></video>
+            </section>
+        </section>
+        <section class="contact">
+            <section class="prenom-contact">
+                <h1>PRENONS CONTACT</h1>
+                <form action="">
+                    <div class="one">
+                        <label for="email" class="adresse-email">Adresse email</label>
+                        <input type="email" name="depuis de l'email" id="email" placeholder="Adresse email" required>
+                    </div>
+                    <h1>NEWSLETTER</h1>
+                    <div class="two">
+                        <label for="news">En cochant cette case vous acceptez de recevoir l’actualité concernant les <br> aventures de Batman :</label>
+                        <input type="checkbox" name="verifier-nouvelle" value="news-letter" id="news">
+                    </div>
+                    <div class="three">
+                        <label for="receive-news" title="recevoir du nouvelle"></label>
+                        <select name="recevoir-nouvelle" id="receive-news">
+                            <option value="Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter" selected>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter:</option>
+                            <option value="Une fois par semaine">Une fois par semaine</option>
+                            <option value="Une fois toutes les deux semaines (2 fois par mois)">Une fois toutes les deux semaines (2 fois par mois)</option>
+                            <option value="Une fois par mois">Une fois par mois</option>
+                            <option value="Une fois toutes les trois mois">Une fois toutes les trois mois</option>
+                            <option value="Une fois toutes les six mois">Une fois toutes les six mois</option>
+                        </select>
+                    </div>
+                    <div class="four">
+                        <label for="ask-question-receive-news"></label>
+                        <input type="text" id="ask-question-receive-news" name="demande recevoir une nouvelle" placeholder="Souhaitez vous recevoir des news ">
+                    </div>
+                    <div class="five">
+                        <input type="button" value="Des films">
+                        <input type="button" value="Des comics">
+                        <input type="button" value="De tout">
+                    </div>
+                    <h1>MESSAGE</h1>
+                    <div class="six">
+                        <label for="commentaire"></label>
+                        <textarea name="commentaire pour les communaute" id="commentaire" cols="50" rows="1" placeholder="Laissez un commentaire pour la communauté"></textarea>
+                    </div>
+                    <div class="seven">
+                        <input type="submit" value="CONFIRMER">
+                    </div>
+                </form>
             </section>
         </section>
     </main>
