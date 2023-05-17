@@ -341,7 +341,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     color: $white;
     font-family: $rajdhani;
     font-size: $fontSizeH1;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0 4rem;
 }
 .allies .art article p{
@@ -437,7 +437,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     color: $white;
     font-family: $rajdhani;
     font-size: $fontSizeH1;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0 4rem;
 }
 .multimedia .contenu-multimedia .slide{
@@ -473,7 +473,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     font-size: $fontSizeTitleH2;
     font-family: $spaceGrotesk;
     font-weight: $fontWeightBold;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .multimedia .contenu-multimedia .slide .card article p.one{
     color: $grey;
@@ -516,8 +516,92 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 /*Contact*/
 .contact{
     width: 100%;
-    height: 130vh;
+    height: 140vh;
     background: linear-gradient(.25turn, $firstGradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .prenom-contact {
+    border: 1px solid $white;
+    width: 66%;
+    height: 110vh;
+}
+.contact .prenom-contact .heading-one{
+    border: 1px solid $white;
+    color: $grey;
+    font-family: $rajdhani;
+    font-size: $fontSizeH1;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.contact .prenom-contact form .one {
+    display: flex;
+    flex-direction: column;
+}
+.contact .prenom-contact form .one .adresse-email{
+    color: $grey;
+    font-family: $spaceGrotesk;
+    font-weight: $fontWeightRegular;
+    font-size: $fontSizeSubTitle;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.contact .prenom-contact form .one input[type="email"]{
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    color: $grey;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $white;
+}
+.contact .prenom-contact form .heading-two{
+    font-family: $spaceGrotesk;
+    font-weight: $fontWeightRegular;
+    font-size: $fontSizeSubTitle;
+    color: $grey;
+    margin: 1.5rem 0;
+}
+.contact .prenom-contact form .two{
+    margin-bottom: 1.5rem;
+}
+.contact .prenom-contact form .two .check-news{
+    color: $grey;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextFirst;
+}
+.contact .prenom-contact form .three {
+    display: flex;
+    flex-direction: column;
+}
+.contact .prenom-contact form .three #receive-news{
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    color: $grey;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $white;
+}
+.contact .prenom-contact form .four{
+    display: flex;
+    flex-direction: column;
+}
+.contact .prenom-contact form .four input[type="text"]{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    color: $grey;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $white;
+}
+.contact .prenom-contact form .five{
+    border: 1px solid $white;
+    width: 100%;
+    height: 6rem;
 }
 /*Responsive*/
 

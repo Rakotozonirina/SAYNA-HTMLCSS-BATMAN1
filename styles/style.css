@@ -339,7 +339,7 @@ body {
   color: #ffffff;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 0 4rem;
 }
 
@@ -447,7 +447,7 @@ body {
   color: #ffffff;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 0 4rem;
 }
 
@@ -489,7 +489,7 @@ body {
   font-size: 12px;
   font-family: "Space Grotesk", sans-serif;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .multimedia .contenu-multimedia .slide .card article p.one {
@@ -539,8 +539,105 @@ body {
 /*Contact*/
 .contact {
   width: 100%;
-  height: 130vh;
+  height: 140vh;
   background: linear-gradient(0.25turn, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .prenom-contact {
+  border: 1px solid #ffffff;
+  width: 66%;
+  height: 110vh;
+}
+
+.contact .prenom-contact .heading-one {
+  border: 1px solid #ffffff;
+  color: #C4C4C4;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact .prenom-contact form .one {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .prenom-contact form .one .adresse-email {
+  color: #C4C4C4;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: regular;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.contact .prenom-contact form .one input[type=email] {
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+  color: #C4C4C4;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.contact .prenom-contact form .heading-two {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: regular;
+  font-size: 22px;
+  color: #C4C4C4;
+  margin: 1.5rem 0;
+}
+
+.contact .prenom-contact form .two {
+  margin-bottom: 1.5rem;
+}
+
+.contact .prenom-contact form .two .check-news {
+  color: #C4C4C4;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.contact .prenom-contact form .three {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .prenom-contact form .three #receive-news {
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+  color: #C4C4C4;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.contact .prenom-contact form .four {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .prenom-contact form .four input[type=text] {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 2rem;
+  background-color: transparent;
+  color: #C4C4C4;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.contact .prenom-contact form .five {
+  border: 1px solid #ffffff;
+  width: 100%;
+  height: 6rem;
 }
 
 /*Responsive*/
