@@ -428,8 +428,9 @@ body {
   width: 100%;
   height: 50vh;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
 }
 
 .multimedia .contenu-multimedia {
@@ -440,7 +441,6 @@ body {
   border-left-width: 0.1rem;
   border-right-width: 0.1rem;
   border-bottom: none;
-  padding-top: 4rem;
 }
 
 .multimedia .contenu-multimedia h1 {
@@ -517,6 +517,23 @@ body {
   font-size: 12px;
   font-weight: bold;
   padding-top: 0.2rem;
+}
+
+.multimedia .annonce {
+  width: 86%;
+  border-style: solid;
+  border-color: rgba(188, 187, 189, 0.2);
+  border-top: none;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
+  border-bottom: none;
+}
+
+.multimedia .annonce video {
+  width: 70%;
+  height: 70vh;
+  display: block;
+  margin: 6rem auto;
 }
 
 /*Responsive*/
@@ -647,7 +664,10 @@ body {
     width: 60%;
     height: 84vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .multimedia .contenu-multimedia .slide .card article {
+    border-radius: 12px;
   }
 }
 
