@@ -786,6 +786,9 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
         background: url(../Illustrations/Bathome11.png) no-repeat top center/contain;
         height: 50vh;
     }
+    .multimedia{
+        height: 200vh;
+    }
     .multimedia .contenu-multimedia{
         height: 150vh;
     }
@@ -804,5 +807,43 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     }
     .multimedia .contenu-multimedia .slide .card article{
         border-radius: 12px;
+    }
+    .multimedia .annonce{
+        margin-top: 5.5rem;
+    }
+    .contact{
+        height: 150vh;
+        align-items: flex-start;
+    }
+    .contact .prenom-contact {
+        margin-top: 4rem;
+    }
+    .contact .prenom-contact .heading-one{
+        font-size: $fontSizeH1Responsive;
+    }
+    .contact .prenom-contact form .one .adresse-email{
+        font-size: $fontSizeSubTitleResponsive;
+    }
+    .contact .prenom-contact form .heading-two{
+        font-size: $fontSizeSubTitleResponsive;
+    }
+    .contact .prenom-contact form .two .check-news{
+        font-size: $fontSizeTextFirstResponsive;
+    }
+    .contact .prenom-contact form .five{
+        flex-direction: column;
+        height: 14rem;
+    }
+    .contact .prenom-contact form .five input[type="button"]{
+        margin: 0.5rem 0;
+    }
+    .contact .prenom-contact form .heading-three{
+        font-size: $fontSizeSubTitleResponsive;
+    }
+    .contact .prenom-contact form .six{
+        margin-bottom: 1rem;
+    }
+    .contact .prenom-contact form .six textarea{
+        height: 2.5rem;
     }
 }
