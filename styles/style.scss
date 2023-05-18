@@ -19,6 +19,7 @@ body{
 }
 /*les couleurs*/
 $black: #000000;
+$blue: #19587D;
 $white: #ffffff;
 $grey: #C4C4C4;
 $yellow: #F8F184;
@@ -521,6 +522,8 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
 }
 .contact .prenom-contact {
     width: 66%;
@@ -669,6 +672,68 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     &:hover{
         background: linear-gradient(.25turn, $secondGradientHover);
     }
+}
+/*Replique*/
+.quote{
+    width: 100%;
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 140vh;
+}
+.quote .contenu-quote{
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    padding: 10rem 16rem;
+    position: relative;
+}
+.quote .contenu-quote .text-one{
+    color: $white;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextFirst;
+    text-align: center;
+}
+.quote .contenu-quote .text-two{
+    color: $grey;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextSeconds;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.quote .contenu-quote .slide{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote .contenu-quote .slide div{
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 2px solid $blue;
+    border-radius: 50px;
+    margin: 0 0.2em;
+    cursor: pointer;
+}
+.quote .contenu-quote .slide .five{
+    background-color: #19587D;
+}
+.quote .contenu-quote .icon_guillemets_1{
+    position: absolute;
+    top: 17%;
+    left: 15%;
+}
+.quote .contenu-quote .icon_guillemets_2{
+    position: absolute;
+    bottom: 17%;
+    right: 15%;
 }
 /*Responsive*/
 
@@ -845,5 +910,25 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     }
     .contact .prenom-contact form .six textarea{
         height: 2.5rem;
+    }
+    .quote .contenu-quote{
+        padding: 0;
+    }
+    .quote .contenu-quote .slide{
+        margin-bottom: 14rem;
+    }
+    .quote .contenu-quote .text-one{
+        font-size: $fontSizeTextSeconds;
+        margin-top: 14rem;
+    }
+    .quote .contenu-quote .icon_guillemets_1{
+        width: 2em;
+        height: 2em;
+        top: 22%;
+    }
+    .quote .contenu-quote .icon_guillemets_2{
+        width: 2em;
+        height: 2em;
+        bottom: 26%;
     }
 }
