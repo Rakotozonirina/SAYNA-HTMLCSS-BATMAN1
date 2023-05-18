@@ -547,18 +547,16 @@ body {
 }
 
 .contact .prenom-contact {
-  border: 1px solid #ffffff;
   width: 66%;
-  height: 110vh;
+  height: 100vh;
 }
 
 .contact .prenom-contact .heading-one {
-  border: 1px solid #ffffff;
   color: #C4C4C4;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .contact .prenom-contact form .one {
@@ -582,7 +580,7 @@ body {
   color: #C4C4C4;
   outline: none;
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #C4C4C4;
 }
 
 .contact .prenom-contact form .heading-two {
@@ -615,7 +613,7 @@ body {
   color: #C4C4C4;
   outline: none;
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #C4C4C4;
 }
 
 .contact .prenom-contact form .four {
@@ -631,13 +629,88 @@ body {
   color: #C4C4C4;
   outline: none;
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #C4C4C4;
 }
 
 .contact .prenom-contact form .five {
-  border: 1px solid #ffffff;
   width: 100%;
   height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .prenom-contact form .five input[type=button] {
+  padding: 0.8rem 2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #C4C4C4;
+  position: relative;
+  border: 3px solid transparent;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(0.25turn, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+  background-image: linear-gradient(0.25turn, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+  background-origin: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #C4C4C4;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.contact .prenom-contact form .five input[type=button]:hover {
+  color: #ffffff;
+  background-clip: border-box;
+}
+
+.contact .prenom-contact form .heading-three {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: regular;
+  font-size: 22px;
+  color: #C4C4C4;
+  margin: 1.5rem 0;
+}
+
+.contact .prenom-contact form .six {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .prenom-contact form .six textarea {
+  width: 100%;
+  padding: 0.4em 0;
+  height: 2rem;
+  resize: none;
+  background-color: transparent;
+  color: #C4C4C4;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.contact .prenom-contact form .seven {
+  width: 100%;
+  height: 6rem;
+  display: grid;
+  place-items: center;
+}
+
+.contact .prenom-contact form .seven input[type=submit] {
+  padding: 1rem 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(0.25turn, rgba(237, 222, 191, 0.4), rgba(137, 0, 8, 0.6));
+  color: #ffffff;
+  transition: background 0.3s ease-in-out;
+}
+.contact .prenom-contact form .seven input[type=submit]:hover {
+  background: linear-gradient(0.25turn, rgba(237, 222, 191, 0.6), rgba(137, 0, 8, 0.8));
 }
 
 /*Responsive*/
