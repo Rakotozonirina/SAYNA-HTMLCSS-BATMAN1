@@ -723,7 +723,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 140vh;
+  height: 74vh;
 }
 
 .quote .contenu-quote {
@@ -784,6 +784,48 @@ body {
   position: absolute;
   bottom: 17%;
   right: 15%;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+footer section {
+  width: 86%;
+  border-style: solid;
+  border-color: rgba(188, 187, 189, 0.2);
+  border-top: none;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
+  border-bottom: none;
+  display: grid;
+  place-items: center;
+}
+
+footer section p {
+  color: #C4C4C4;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+footer section p img {
+  margin: 0 1em;
+}
+
+footer section .logos-footer {
+  margin-bottom: 14rem;
+  display: flex;
+  align-items: center;
+}
+
+footer section .logos-footer img {
+  margin: 0 1em;
 }
 
 /*Responsive*/
@@ -979,6 +1021,14 @@ body {
     width: 2em;
     height: 2em;
     bottom: 26%;
+  }
+  footer section p {
+    padding: 0 2em;
+  }
+  footer section .logos-footer img {
+    margin: 0 0.5em;
+    width: 1.5em;
+    height: 1.5em;
   }
 }
 

@@ -681,7 +681,7 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 140vh;
+    height: 74vh;
 }
 .quote .contenu-quote{
     width: 86%;
@@ -734,6 +734,42 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     position: absolute;
     bottom: 17%;
     right: 15%;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+footer section{
+    width: 86%;
+    border-style: $bordureStyle;
+    border-color: $lineDiscreteColor;
+    border-top: none;
+    border-left-width: $bordureWidthLeftHero;
+    border-right-width: $bordureWidthRightHero;
+    border-bottom: none;
+    display: grid;
+    place-items: center;
+}
+footer section p{
+    color: $grey;
+    font-family: $spaceGrotesk;
+    font-size: $fontSizeTextSeconds;
+    display: flex;
+    align-items: center;
+}
+footer section p img{
+    margin: 0 1em;
+}
+footer section .logos-footer{
+    margin-bottom: 14rem;
+    display: flex;
+    align-items: center;
+}
+footer section .logos-footer img{
+    margin: 0 1em;
 }
 /*Responsive*/
 
@@ -930,5 +966,13 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
         width: 2em;
         height: 2em;
         bottom: 26%;
+    }
+    footer section p{
+        padding: 0 2em;
+    }
+    footer section .logos-footer img{
+        margin: 0 0.5em;
+        width: 1.5em;
+        height: 1.5em;
     }
 }
