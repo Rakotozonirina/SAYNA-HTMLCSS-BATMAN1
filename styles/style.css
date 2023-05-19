@@ -197,6 +197,36 @@ body {
   justify-content: center;
 }
 
+.cinema-batman .contenu-cart-batman .one {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.cinema-batman .contenu-cart-batman .one:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.cinema-batman .contenu-cart-batman .two {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.cinema-batman .contenu-cart-batman .two:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.cinema-batman .contenu-cart-batman .three {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.cinema-batman .contenu-cart-batman .three:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
 .cinema-batman .contenu-cart-batman .div p {
   color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
@@ -275,6 +305,36 @@ body {
   display: grid;
   justify-content: center;
   z-index: 1;
+}
+
+.nemesis .contenu-cart-nemesis .one {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.nemesis .contenu-cart-nemesis .one:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.nemesis .contenu-cart-nemesis .two {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.nemesis .contenu-cart-nemesis .two:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.nemesis .contenu-cart-nemesis .three {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.nemesis .contenu-cart-nemesis .three:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .nemesis .contenu-cart-nemesis div p {
@@ -371,6 +431,36 @@ body {
 .allies .contenu-cart-allies .div {
   display: grid;
   justify-content: center;
+}
+
+.allies .contenu-cart-allies .one {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.allies .contenu-cart-allies .one:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.allies .contenu-cart-allies .two {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.allies .contenu-cart-allies .two:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.allies .contenu-cart-allies .three {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.allies .contenu-cart-allies .three:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .allies .contenu-cart-allies .div p {

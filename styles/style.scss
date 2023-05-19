@@ -215,6 +215,33 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     display: grid;
     justify-content: center;
 }
+.cinema-batman .contenu-cart-batman .one{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.cinema-batman .contenu-cart-batman .two{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.cinema-batman .contenu-cart-batman .three{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
 .cinema-batman .contenu-cart-batman .div p{
     color: $white;
     font-family: $spaceGrotesk;
@@ -285,6 +312,33 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
     display: grid;
     justify-content: center;
     z-index: 1;
+}
+.nemesis .contenu-cart-nemesis .one{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.nemesis .contenu-cart-nemesis .two{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.nemesis .contenu-cart-nemesis .three{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
 }
 .nemesis .contenu-cart-nemesis div p{
     color: $white;
@@ -370,6 +424,33 @@ $secondGradientHover: $greyButtonColorHoverOne, $redButtonColorHover;
 .allies .contenu-cart-allies .div{
     display: grid;
     justify-content: center;
+}
+.allies .contenu-cart-allies .one{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.allies .contenu-cart-allies .two{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
+.allies .contenu-cart-allies .three{
+    transition: transform .2s;
+    cursor: pointer;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
 }
 .allies .contenu-cart-allies .div p{
     color: $white;
