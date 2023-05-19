@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <section class="menu">
                 <div class="div one">
                     <img src="./Logos/logohome.png" alt="logohome">
@@ -27,13 +27,17 @@
                         <h1>Il est Batman.</h1>
                     </div>
                     <div class="contenu-bouton">
-                        <button type="button" class="bouton">VOIR LE HEROS</button>
-                        <button type="button" class="bouton">LES ADVERSAIRES</button>
+                        <a href="#cinema-batman">
+                            <button type="button" class="bouton">VOIR LE HEROS</button>
+                        </a>
+                        <a href="#nemesis">
+                            <button type="button" class="bouton">LES ADVERSAIRES</button>
+                        </a>
                     </div>
                 </article>
                 <aside>
                     <div class="flèche-bat">
-                        <img src="./Logos/logo_bat_flèche.png" alt="logo bat flèche">
+                        <a href="#home"><img src="./Logos/logo_bat_flèche.png" alt="logo bat flèche"></a>
                     </div>
                     <div>
                         <img src="./Logos/icon_facebook.png" alt="facebook icons">
@@ -45,7 +49,7 @@
                         <img src="./Logos/icon_tw.png" alt="twitter icons">
                     </div>
                     <div class="flèche-bat">
-                        <img src="./Logos/logo_bat_flèche_2.png" alt="logo bat flèche two">
+                        <a href="#contact"><img src="./Logos/logo_bat_flèche_2.png" alt="logo bat flèche two"></a>
                     </div>
                 </aside>
                 <section class="fleche-vers-le-bas">
@@ -53,7 +57,7 @@
                 </section>
             </section>
         </section>
-        <section class="cinema-batman">
+        <section class="cinema-batman" id="cinema-batman">
             <section class="art">
                 <article>
                     <h1>BATMAN AU CINÉMA</h1>
@@ -81,7 +85,7 @@
                 </div>
             </section>
         </section>
-        <section class="nemesis">
+        <section class="nemesis" id="nemesis">
             <section class="art">
                 <article>
                     <h1>NÉMÉSIS</h1>
@@ -192,7 +196,7 @@
                 <video src="./Video/annonce.mp4" autoplay controls poster="./Illustrations/Bathome_ba2.png"></video>
             </section>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <section class="prenom-contact">
                 <h1 class="heading-one">PRENONS CONTACT</h1>
                 <form action="./Popup/index.html">
