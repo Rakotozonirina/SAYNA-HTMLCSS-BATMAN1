@@ -80,6 +80,12 @@ $fontWeightRegular: regular;
 .home .menu .one{
     padding-left: 4rem;
 }
+.home .menu .one img{
+    &:hover{
+        cursor: pointer;
+        filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+    }
+}
 .home .menu .two h1{
     text-align: right;
     margin-right: 4rem;
@@ -146,6 +152,17 @@ $fontWeightRegular: regular;
     top: 32%;
     z-index: 1;
 }
+.home .hero aside div img{
+    &:hover{
+        cursor: pointer;
+        filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+    }
+}
+.home .hero aside .flèche-bat a img{
+    &:hover{
+        filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+    }
+} 
 /*variable de background-gradient*/
 $firstGradient: $greyButtonColorOne, $greyButtonColorTwo;
 $secondGradient: $greyButtonColorOne, $redButtonColor;
@@ -854,6 +871,10 @@ footer section .logos-footer{
 }
 footer section .logos-footer img{
     margin: 0 1em;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+    }
 }
 /*Responsive*/
 
